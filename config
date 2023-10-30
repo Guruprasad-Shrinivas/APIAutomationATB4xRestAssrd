@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://Guruprasad-Shrinivas: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@github.com/Guruprasad-Shrinivas/g.shrinivas.ganiga
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[gui]
+	wmstate = normal
+	geometry = 1322x693+76+76 254 315
