@@ -23,6 +23,8 @@ public class PayloadManager {
       Bookingdates bookingdates = new Bookingdates();
       bookingdates.setCheckin("2022-01-01");
       bookingdates.setCheckout("2022-01-01");
+      booking.setBookingdates(bookingdates);
+
       String payload = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(booking);
       return payload;
 

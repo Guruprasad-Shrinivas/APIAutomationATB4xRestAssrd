@@ -32,6 +32,11 @@ public class BaseTest {
 
      payloadManager = new PayloadManager();
      actions = new AssertActions();
+        /*payloadManager = new PayloadManager();
+        actions = new AssertActions();
+        requestSpecification = RestAssured.given()
+                .given().baseUri(APIConstants.BASE_URL)
+                .contentType(ContentType.JSON).log().all();*/
 
 //     requestSpecification = RestAssured.given()
 //             .baseUri(APIConstants.BASE_URL)
