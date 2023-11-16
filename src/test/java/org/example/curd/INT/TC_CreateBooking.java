@@ -1,4 +1,4 @@
-package org.example.curd;
+package org.example.curd.INT;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.qameta.allure.Description;

@@ -8,7 +8,7 @@ import java.util.Map;
 public class YAMLReader {
 
     public Map<String, Object> readKey(){
-        Yaml yaml = new Yaml()
+        Yaml yaml = new Yaml();
         InputStream inputStream = this.getClass()
                 .getClassLoader()
                 .getResourceAsStream("org/example/endpoints/resource/TestDataYAML.yaml");

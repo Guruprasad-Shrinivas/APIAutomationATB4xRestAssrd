@@ -2,9 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="3" preserve-order="true" name="APIAutomationATB4xRestAssrd">
-        <classes>
-            <class name="org.example.curd.TC_CreateBooking">
+        <!--<classes>
+            //<class name="org.example.curd.*"/>
+           // <class name="org.example.curd.INT.TC_CreateBooking">
         </class>
+        </classes>-->
+        <classes>
+            <class name="org.example.curd.INT.TC_Integration"></class>
         </classes>
         <groups>
             <run>
